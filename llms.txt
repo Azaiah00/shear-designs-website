@@ -10,7 +10,7 @@ Formerly known as: Shear Designs Hair & Beauty Lounge. Instagram name: "Pixie Ex
 - Email: shadupree@yahoo.com
 - Parking: free lot parking
 - Setting: private, appointment-based salon; no guests allowed inside
-- Website: https://sheardesignsrva.com/
+- Website: https://shear-designs-website.netlify.app/
 
 ## Hours
 - Monday: 9:30 am - 4:00 pm
@@ -96,4 +96,4 @@ Formerly known as: Shear Designs Hair & Beauty Lounge. Instagram name: "Pixie Ex
 - Instagram (brows): https://www.instagram.com/beautyfullbrowspmuartistry/
 - Facebook: https://www.facebook.com/ShearDesignsHairandBeautyLounge/
 - Linktree: https://linktr.ee/Sheardesignsbeautyfullbrows
-- Pages: https://sheardesignsrva.com/hair.html, https://sheardesignsrva.com/brows.html, https://sheardesignsrva.com/academy.html, https://sheardesignsrva.com/about.html
+- Pages: https://shear-designs-website.netlify.app/hair.html, https://shear-designs-website.netlify.app/brows.html, https://shear-designs-website.netlify.app/academy.html, https://shear-designs-website.netlify.app/about.html
