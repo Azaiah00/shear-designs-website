@@ -1,0 +1,12 @@
+# Raw photos pulled for the pitch - keep local, never publish
+_source-photos/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Netlify local
+.netlify/
