@@ -48,6 +48,19 @@
   [headers.values]
     Content-Type = "text/plain; charset=utf-8"
 
+# Internal files: never serve (they stay in the repo for the team)
+[[redirects]]
+  from = "/LAUNCH-NOTES.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
 # Pretty URLs: /hair -> /hair.html (Netlify Pretty URLs also handles this)
 [[redirects]]
   from = "/home"
