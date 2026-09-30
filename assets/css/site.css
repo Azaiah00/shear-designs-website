@@ -784,3 +784,15 @@ body { padding-bottom: calc(var(--mbar) + env(safe-area-inset-bottom)); }
   .hdr, .mbar, .mnav, .skip { display: none !important; }
   body { background: #fff; color: #000; padding: 0; }
 }
+
+
+/* Fix (29 Sep 2026): stop iPhone Safari from sizing photo boxes from the photo inside them (the box could grow without stopping).
+   Photos are pinned inside their boxes, so each box takes its size only from its own width and aspect ratio. */
+.phero__arch { position: relative; }
+.hero__arch, .hero__inset, .phero__arch { min-height: 0; }
+.hero__arch > img, .hero__inset > img, .phero__arch > img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; }
+
+/* Fix (30 Sep 2026): stable scrolling on phones. The page can only move up and down; sideways panning is off.
+   Only the viewport (html) clips sideways overflow; body is left unclipped so iPhone Safari keeps drawing the whole page. */
+html { overflow-x: hidden; touch-action: pan-y pinch-zoom; }
+body { overflow-x: visible !important; }
